@@ -12,7 +12,7 @@ email = sys.argv[1]
 
 count = 0
 
-driver_path = "C:/Users/drake/Desktop/Projects\spam_em/edgedriver_win64/msedgedriver.exe"
+driver_path = "C:/Users/drake/Desktop/Projects/edgedriver_win64/msedgedriver.exe"
 service = Service(executable_path=driver_path)
 
 options = Options()
